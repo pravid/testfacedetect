@@ -455,6 +455,8 @@ def delete_employee(name):
 	return jsonify(answer)
 
 
+if __name__ == "__main__":
+    app.run()
 	
 
 # * -------------------- RUN SERVER -------------------- *
