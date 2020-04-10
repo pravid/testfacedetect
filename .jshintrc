@@ -1,0 +1,16 @@
+{
+    "undef": false,
+    /* true: Require all non-global variables to be declared (prevents global leaks)*/
+    "unused": false,
+    /* Unused variables:
+   true     : all variables, last function parameter
+   "vars"   : all variables only
+   "strict" : all variables, all function parameters*/
+    "strict": false, /* true: Requires all functions run in ES5 Strict Mode*/
+    "esversion": 6,
+    "sub": true,
+    "globals": {
+        "$": false,
+        "jquery": false
+    }
+}
