@@ -1,1 +1,1 @@
-web python app_threaded.py
+web: gunicorn app_threaded:app --preload --timeout 60
