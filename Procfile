@@ -1,1 +1,1 @@
-web: gunicorn app_threaded:app --preload --timeout 60
+web: gunicorn --bind 0.0.0.0:$PORT app_threaded:app
