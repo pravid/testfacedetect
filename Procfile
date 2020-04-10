@@ -1,1 +1,1 @@
-web: gunicorn app_threaded:app
+web python app_threaded.py
