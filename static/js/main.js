@@ -27,7 +27,7 @@ $(document).on('ready', function () {
   imgBasePath = "static/assets/img/";
   imgUserPath = "static/assets/img/users/";
   imgLogBasePath = "assets/img/userslog/";
-  basePyPath = "http://127.0.0.1:5000";
+  basePyPath = "https://testfacedetect.herokuapp.com";
 
   console.log("vid " + $("#pyfeedImg").attr('src'));
 
