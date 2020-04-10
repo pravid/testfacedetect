@@ -183,17 +183,27 @@ def video_feed():
 
 # * ---------- DATABASE CONFIG --------- *
 
-""" DATABASE_USER = 'postgres'
+"""
+J
+DATABASE_USER = 'postgres'
 DATABASE_PASSWORD = 'password'
 DATABASE_HOST = 'localhost'
 DATABASE_PORT = 5432
 DATABASE_NAME = 'attendance' """
 
+""" 
+T
 DATABASE_USER = 'postgres'
 DATABASE_PASSWORD = 'Passw0rd'
 DATABASE_HOST = 'localhost'
 DATABASE_PORT = '5432'
-DATABASE_NAME = 'testDb1'
+DATABASE_NAME = 'testDb1' """
+
+DATABASE_USER = 'xkzfgkqmbrtudk'
+DATABASE_PASSWORD = 'eb918ef96fae8f128f937e44bf9b9ad80e7173f0c9a896ec788eb678a479a6d3'
+DATABASE_HOST = 'ec2-54-197-48-79.compute-1.amazonaws.com'
+DATABASE_PORT = '5432'
+DATABASE_NAME = 'attendance'
 
 
 
