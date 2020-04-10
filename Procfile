@@ -1,1 +1,1 @@
-web: gunicorn app_threaded:app --log-file=-
+web:gunicorn app_threaded:app --log-file=-
