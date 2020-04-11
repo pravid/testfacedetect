@@ -1,1 +1,1 @@
-web: gunicorn -timeout 90 app_threaded:app
+web: gunicorn app_threaded:app
