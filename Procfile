@@ -1,1 +1,1 @@
-web: gunicorn app_threaded:app
+web: gunicorn app:app
